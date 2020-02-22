@@ -10,6 +10,7 @@ class CustomPage {
       args : ['--no-sandbox']
     });
 
+    
     const page = await browser.newPage();
     const customPage = new CustomPage(page);
 
